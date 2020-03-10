@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="1000.0" prefWidth="1000.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="game.helpHandler">
+  <children>
+    <ImageView fitHeight="105.4300004533421" fitWidth="127.02409362792969" layoutX="873.0" layoutY="0.0" onMouseClicked="#closeButton" onMouseEntered="#makeGlow" onMouseExited="#removeGlow" pickOnBounds="true" preserveRatio="true">
+      <effect>
+        <DropShadow height="139.93650793650792" radius="69.46825396825396" width="139.93650793650792" />
+      </effect>
+      <image>
+        <Image url="@../media/closeSign.png" />
+      </image>
+    </ImageView>
+  </children>
+</AnchorPane>
